@@ -88,6 +88,42 @@ body {
     margin-left: 0.5rem;
 }
 
+#button {
+    margin-left: 21px;
+    /* color: whitesmoke; */
+}
+
+.location {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: orange;
+    cursor: none;
+    margin-left: 24px;
+}
+
+.twitter {
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: rgba(10, 136, 239, 0.664);;
+    margin-left: 24px;
+}
+
+.location:hover {
+    background-color: whitesmoke;
+    color: orange;
+}
+
+.twitter:hover {
+    background-color: whitesmoke;
+    color: rgba(10, 136, 239, 0.664);
+}
+
 .repo {
     text-decoration: none;
     color: #fff;
@@ -104,6 +140,23 @@ body {
         flex-direction: column;
         align-items: center;
     }
+
+    .problem {
+        padding: 0;
+    }
+
+    .location {
+        font-size: 10px;
+    }
+
+    .twitter {
+        margin-left: 10px;
+        font-size: 10px;
+    }
+
+  .user-info {
+    margin-top: 30px;
+  }
 
     .user-form {
         max-width: 400px;

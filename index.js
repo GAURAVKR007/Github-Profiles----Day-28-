@@ -40,8 +40,13 @@ function createErrorCard(msg){
 function createUserCard(user){
     const cardHTML = `
     <div class="card">
-        <div>
+        <div class= "Problem">
           <img src="${user.avatar_url}" alt="${user.name}" class="avatar"> 
+
+          <a href="${user.html_url}" class="btn btn-outline-secondary" id="button" target="blank">Visit Github Profile</a>
+
+          <a href=# class="location">${user.location}</a>
+          <a href="https://twitter.com/${user.twitter_username}"  target="blank" class="twitter">${user.twitter_username}</a>
         </div>
         <div class="user-info">
           <h2>${user.name}</h2>
