@@ -8,6 +8,7 @@ body {
     font-family: 'Muli',sans-serif;
     display: flex;
     margin: 0;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     overflow: hidden;
